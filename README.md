@@ -1,4 +1,4 @@
-# ⚡ Neon Weather App - React
+# ⚡ Weather App - React
 
 Aplikasi prakiraan cuaca modern dengan desain futuristik 'Neon Glassmorphism' yang dibangun menggunakan React dan Vite. Dilengkapi dengan toggle Light/Dark Mode dan grafik data 7 hari.
 
