@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --color-bg-primary: #0a0e1a;
+  --color-text-primary: #f0f0f0;
+  --color-text-secondary: #c0c0c0;
+  --color-text-dimmed: #9fa8b8;
+  --color-card-bg: #1c2331;
+  --color-neon-blue: #00ffff;
+  --color-neon-purple: #ff66ff;
+  --bg-dots-color: #202020;
+  --bg-dots-image: radial-gradient(var(--bg-dots-color) 1px, transparent 0);
+}
+
+.light-mode {
+  --color-bg-primary: #f0f4f8;
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-text-dimmed: #94a3b8;
+  --color-card-bg: #ffffff;
+  --color-card-bg-transparent: rgba(255, 255, 255, 0.9);
+  --color-accent-blue: #3b82f6;
+  --color-accent-purple: #a855f7;
+  --color-neon-blue: var(--color-accent-blue);
+  --color-neon-purple: var(--color-accent-purple);
+  --bg-dots-color: #d0d0d0;
+  --bg-dots-image: radial-gradient(var(--bg-dots-color) 1px, transparent 0);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  background-image: var(--bg-dots-image);
+  background-size: 40px 40px;
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  text-align: center;
+}
